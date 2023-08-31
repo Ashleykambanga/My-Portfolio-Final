@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css"  href="style.css">
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <title>My Portfolio</title>
 </head>
 <body>
 
     <div class="content">
         
-        <nav class="navbar ">
+        <nav class="navbar">
             <a href="#" class="logo">Ashley kambanga</a>
             <div class="nav-link">
             <ul>
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
             </div>
@@ -39,52 +39,53 @@
         </div>
     </div>
     
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
           <div class="row">
-            <div class="col-md-5 bg-dark" >
+            <div class="col-md-5 col-sm-12 bg-dark" >
                 <img src="/img/59BC0D8F-6856-4461-A3CC-423DB5CE2A8D.jpeg" alt="" class="img-fluid">
             </div>
-            <div class="col-md-4" >
+            <div class="col-md-6 col-sm-12" >
                 <h2>About me</h2>
                 <hr class="hr1">
                 <div class="pp">
-                <p>I’m a front-end developer located in Zimbabwe i have a serious passion for UI effect. 
-                    My interest in web developement started in 2023 when i joined uncommon.org.
-                    I learned a lot about HTML ,
-                    <br>
-                     CSS and FLEXBOXS. My main focus these days is 
-                    building my inclusive  products and websites at Upstatement for a variety of clients.</p>
+                    <p>I’m a front-end developer located in Zimbabwe i have a serious passion for UI effect. 
+                        My interest in web developement started in 2022 when i joined uncommon.org.
+                      <br>
+                      <br>
+                      As a web developer, I embarked on an enriching journey during my one-year experience as 
+                      a student at Uncommon.org. This organization provided me with invaluable opportunities to 
+                      delve into technology education and gain practical employment skills.
                  </div>
-                    <button class="bttn">Read more</button>
+                    <a class="bttn" href="about.html" >Read more</a>
             </div>
           </div>
      </div>
     </section>
 
 
-    <section class="work">
-        <h3>My Work</h3>
+    <section class="work" id="work">
+        <h3>My Projects</h3>
         <hr class="hr1">
         <div class="container">
-            <div class="tab">
-                <a href="#">All</a>
-                <a href="#">WEB developement</a> 
-                <a href="#">WEB DESIGN </a> 
-    
-            </div>
-            <div class=" flex-container">
+            
+            <div class=" flex-container  col-sm-12">
                <img src="/img/Screen Shot 2023-03-02 at 14.37.08.png" class="img-fluid">
-               <img src="/img//Screen Shot 2023-03-03 at 14.03.20.png" class="img-fluid">
+               <img src="/img/Screen Shot 2023-08-31 at 12.36.12.png" class="img-fluid">
             </div>
+
+            <div class=" flex-container col-sm-12">
+                <img src="/img/Screen Shot 2023-03-02 at 14.37.49.png" class="img-fluid">
+                <img src="/img/Screen Shot 2023-08-31 at 12.41.43.png" class="img-fluid">
+             </div>
     
         </div> 
     </section>
 
-    <section class="inn">
+    <!-- <section class="inn">
         <img src="/img/pic.png" class="img-fluid">
         <p class="overlay-text">“Technology  is not just a tool. It can give leaners a voice that they not have head before.” </p>
-    </section>
+    </section> -->
 
     <section class="contact">
         <h2>Get In Touch</h2>
